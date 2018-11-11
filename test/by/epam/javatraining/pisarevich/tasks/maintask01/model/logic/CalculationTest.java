@@ -32,7 +32,7 @@ public class CalculationTest {
         assertEquals(result, findArithmeticAverage(vector), 0.0001);
     }
 
-    @Test //not done
+    @Test 
     public void findGeometricAverageTest() {
         DoubleVector vector = new DoubleVector();
         double[] a = {-5, 6, 55, 30};
