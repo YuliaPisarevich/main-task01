@@ -1,0 +1,13 @@
+1	find min value
+2	find max value
+3	find arithmetic average
+4	find geometric average
+5	ask is sorted
+6	find local min value
+7	find local max value
+8	find element by linear search
+9	find element by binary search
+10	reverse vector
+11	bubble sort
+12	insertion sort
+13	selection sort
