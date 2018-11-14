@@ -42,10 +42,6 @@ public class Calculation {
     public static double findGeometricAverage(DoubleVector vector) {
         double sum = 1;
         for (double value : vector.getArray()) {
-            if (value <= 0) {
-                LOG.info("geometric average mean for positive numbers only. Result of GeometricAverage is -1");
-                return -1;
-            }
             sum *= value;
         }
         return Math.pow(sum, 1 / vector.getArray().length);

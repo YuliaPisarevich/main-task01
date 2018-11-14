@@ -1,3 +1,15 @@
 2018-11-11 19:59:27,550  INFO root:15 = Vector initialization was successful
 2018-11-11 19:59:27,580  INFO root:20 = Max value was found and printed successful
 2018-11-11 19:59:27,580  INFO root:24 = Reverse vector was found and printed successful
+2018-11-11 20:11:42,765  INFO root:46 = geometric average mean for positive numbers only. Result of GeometricAverage is -1
+2018-11-14 08:29:25,854  INFO root:42 = Vector initialization was successful
+2018-11-14 08:29:25,854  INFO root:55 = Min value was found and printed successful
+2018-11-14 08:29:25,854  INFO root:59 = ArithmeticAverage value was found and printed successful
+2018-11-14 08:29:25,854  INFO root:63 = GeometricAverage value was found and printed successful
+2018-11-14 08:29:25,854  INFO root:70 = GeometricAverage value was found and printed successful
+2018-11-14 08:29:25,854  INFO root:74 = LocalMin value was found and printed successful
+2018-11-14 08:29:25,854  INFO root:78 = LocalMax value was found and printed successful
+2018-11-14 08:29:25,870  INFO root:82 = Reverse vector was found and printed successful
+2018-11-14 08:29:25,870  INFO root:86 = BinarySearch value was performed and result printed successful
+2018-11-14 08:29:25,870  INFO root:90 = Sort check was performed and result printed successful
+2018-11-14 08:29:25,870  INFO root:94 = SelectionSort was performed and result printed successful

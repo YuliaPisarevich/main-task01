@@ -5,7 +5,7 @@ import by.epam.javatraining.pisarevich.tasks.maintask01.model.entity.DoubleVecto
 public class Searcher {
 
     //O(n)
-    public static int linearSearch(DoubleVector vector, double searchValue) {
+    public static int doLinearSearch(DoubleVector vector, double searchValue) {
         for (int i = 0; i < vector.getArray().length; i++) {
             if (searchValue == vector.getArray()[i]) {
                 return i;
@@ -15,7 +15,7 @@ public class Searcher {
     }
 
     //O(log(n))
-    public static int binarySearch(DoubleVector vector, double searchValue) {
+    public static int doBinarySearch(DoubleVector vector, double searchValue) {
         int low = 0;
         int high = vector.getArray().length - 1;
         int mid;

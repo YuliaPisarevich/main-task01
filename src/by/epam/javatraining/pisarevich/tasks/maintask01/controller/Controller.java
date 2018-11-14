@@ -1,10 +1,14 @@
 package by.epam.javatraining.pisarevich.tasks.maintask01.controller;
 
 import by.epam.javatraining.pisarevich.tasks.maintask01.model.entity.DoubleVector;
+import by.epam.javatraining.pisarevich.tasks.maintask01.model.exceptions.EmptyVectorException;
+import by.epam.javatraining.pisarevich.tasks.maintask01.model.exceptions.NullVectorException;
 import by.epam.javatraining.pisarevich.tasks.maintask01.model.logic.Calculation;
+import by.epam.javatraining.pisarevich.tasks.maintask01.model.logic.Searcher;
+import by.epam.javatraining.pisarevich.tasks.maintask01.model.logic.Sorter;
 import by.epam.javatraining.pisarevich.tasks.maintask01.util.VectorCreator;
 import by.epam.javatraining.pisarevich.tasks.maintask01.util.VectorInitializer;
-import by.epam.javatraining.pisarevich.tasks.maintask01.view.View;
+import by.epam.javatraining.pisarevich.tasks.maintask01.view.Print;
 import org.apache.log4j.Logger;
 /**
  * This program performs the following tasks
@@ -25,22 +29,66 @@ import org.apache.log4j.Logger;
  * @author Pisarevich Yulia
  *
  */
+//not ready yet :(
+//exceptions!!!
 
 public  class Controller {
+    private static final double  SEARCH_VALUE = 13.0;
+
     public static final Logger LOG = Logger.getRootLogger();
+
     public static void main(String[] args) {
+
     DoubleVector vector = VectorCreator.create();
     VectorInitializer.rndInput(vector, -10, 10);
     LOG.info("Vector initialization was successful");
-    View.print(vector);
+    Print.print("Source vector", vector);
 
-    double max = Calculation.findMaxValue(vector);
-    View.print(max);
-    LOG.info("Max value was found and printed successful");
+
+    double min = Calculation.findMinValue(vector);
+    Print.print("Min value", min);
+    LOG.info("Min value was found and printed successful");
+
+    double arithmeticAverage = Calculation.findArithmeticAverage(vector);
+    Print.print("ArithmeticAverage", arithmeticAverage);
+    LOG.info("ArithmeticAverage value was found and printed successful");
+
+    try {
+        double geometricAverage = Calculation.findGeometricAverage(vector);
+        Print.print("GeometricAverage", geometricAverage);
+        LOG.info("GeometricAverage value was found and printed successful");
+    }catch (ArithmeticException e){
+        LOG.info("Couldn't find geometric average. " +
+                "Geometric average mean for positive numbers only.");
+        }
+
+    double geometricAverage = Calculation.findGeometricAverage(vector);
+    Print.print("GeometricAverage", geometricAverage);
+    LOG.info("GeometricAverage value was found and printed successful");
+
+    double localMin = Calculation.findLocalMin(vector);
+    Print.print(localMin);
+    LOG.info("LocalMin value was found and printed successful");
+
+    double localMax = Calculation.findLocalMax(vector);
+    Print.print("LocalMax", localMax);
+    LOG.info("LocalMax value was found and printed successful");
 
     double[] reverse = Calculation.doReverse(vector);
-    View.print(reverse);
+    Print.print("Reverse vector", reverse);
     LOG.info("Reverse vector was found and printed successful");
+
+    double binarySearch = Searcher.doBinarySearch(vector, SEARCH_VALUE);
+    Print.print("BinarySearch result", binarySearch);
+    LOG.info("BinarySearch value was performed and result printed successful");
+
+    boolean checkSort = Sorter.isSorted(vector);
+    Print.print("Sort check result", checkSort);
+    LOG.info("Sort check was performed and result printed successful");
+
+    double[] selectionSort = Sorter.doSelectionSort(vector);
+    Print.print("SelectionSort result", selectionSort);
+    LOG.info("SelectionSort was performed and result printed successful");
 
     }
 }

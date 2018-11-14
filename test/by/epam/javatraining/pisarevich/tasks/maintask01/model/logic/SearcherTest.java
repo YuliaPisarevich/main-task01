@@ -14,7 +14,7 @@ public class SearcherTest {
         vector.setArray(a);
         double search = 55.0;
         int result = 2;
-        assertEquals(result, linearSearch(vector, search));
+        assertEquals(result, doLinearSearch(vector, search));
 
     }
 
@@ -25,6 +25,6 @@ public class SearcherTest {
         vector.setArray(a);
         double search = 55.0;
         int result = 2;
-        assertEquals(result, binarySearch(vector, search));
+        assertEquals(result, doBinarySearch(vector, search));
     }
 }
