@@ -20,6 +20,11 @@ public class DoubleVector {
         this.array = new double[size];
     }
 
+    //copy constructor
+    public DoubleVector(DoubleVector another) {
+        this.array = another.getArray();
+    }
+
     //getter
     public double[] getArray() {
         return array;

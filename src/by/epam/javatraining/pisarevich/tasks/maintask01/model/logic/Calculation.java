@@ -44,7 +44,7 @@ public class Calculation {
         for (double value : vector.getArray()) {
             sum *= value;
         }
-        return Math.pow(sum, 1 / vector.getArray().length);
+        return Math.pow(sum, 1.0 / vector.getArray().length);
 
     }
 
@@ -85,14 +85,13 @@ public class Calculation {
     }
 
     //O(n/2)
-    public static double[] doReverse(DoubleVector vector) {
+    public static void doReverse(DoubleVector vector) {
         double buf;
         for (int i = 0; i < vector.getArray().length / 2; i++) {
             buf = vector.getArray()[i];
             vector.getArray()[i] = vector.getArray()[vector.getArray().length - i - 1];
             vector.getArray()[vector.getArray().length - i - 1] = buf;
         }
-        return vector.getArray();
     }
 
 
