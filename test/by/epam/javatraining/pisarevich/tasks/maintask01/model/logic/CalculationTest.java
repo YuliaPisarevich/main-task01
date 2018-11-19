@@ -40,14 +40,12 @@ public class CalculationTest {
         double result = 1.0;
         assertEquals(result, findGeometricAverage(vector), 0.0001);
     }
-    @Test //not done
+    @Test 
     public void findGeometricAverageTestRootOfNegative() {
-        try {
             DoubleVector vector = new DoubleVector();
             double[] a = {-5, 0, 55, 30};
             vector.setArray(a);
             findGeometricAverage(vector);
-        } catch (ArithmeticException e){}
     }
 
     @Test
