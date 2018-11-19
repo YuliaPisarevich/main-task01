@@ -40,10 +40,8 @@ public class CalculationTest {
         assertEquals(result, findArithmeticAverage(vector), 0.0001);
     }
 
-    /**
-     * WTF
-     */
-    @Test //not done
+
+    @Test 
     public void findGeometricAverageTest() {
         double[] a = {5, 5, 5, 5, 5};
         vector.setArray(a);
