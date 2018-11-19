@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ccafdb-878e-4e79-80cf-ba2bfe1b5e5a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Sorter.java" afterPath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Sorter.java" />
-      <change beforePath="$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/SorterTest.java" afterPath="$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/SorterTest.java" />
+      <change beforePath="$PROJECT_DIR$/logs/vector.log" afterPath="$PROJECT_DIR$/logs/vector.log" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/Controller.java" afterPath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/Controller.java" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Calculation.java" afterPath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Calculation.java" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/view/Print.java" afterPath="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/view/Print.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,9 +33,11 @@
       <file leaf-file-name="VectorInitializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/util/VectorInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,18 +45,18 @@
       <file leaf-file-name="Print.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/view/Print.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleVectorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/entity/DoubleVectorTest.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SorterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SorterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/SorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+            <state relative-caret-position="952">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#418#419#0" expanded="true" />
                 <element signature="e#461#462#0" expanded="true" />
@@ -98,11 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sorter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Sorter.java">
+      <file leaf-file-name="Calculation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Calculation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="174" column="41" lean-forward="true" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Searcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Searcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,31 +124,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZeroLengthVectorException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/ZeroLengthVectorException.java">
+      <file leaf-file-name="Sorter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Sorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="2924">
+              <caret line="174" column="41" lean-forward="true" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
               <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VectorOutOfBoundsException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/VectorOutOfBoundsException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,11 +197,9 @@
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/runtimeexceptions/EmptyVectorException.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/NullVectorSizeException.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/EmptyVectorException.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/view/Print.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/ValueToString.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Searcher.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/entity/DoubleVector.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Calculation.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/ZeroSizeVectorException.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/NegativeVectorSizeException.java" />
         <option value="$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/SearcherTest.java" />
@@ -213,11 +207,13 @@
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/ZeroLengthVectorException.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/VectorOutOfBoundsException.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/VectorException.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/Controller.java" />
         <option value="$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/entity/DoubleVectorTest.java" />
         <option value="$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/CalculationTest.java" />
         <option value="$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/SorterTest.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Calculation.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/view/Print.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -286,8 +282,14 @@
               <item name="main-task01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="maintask01" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="main-task01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main-task01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="maintask01" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main-task01" type="b2602c69:ProjectViewProjectNode" />
@@ -365,13 +367,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SorterTest">
+  <component name="RunManager" selected="Application.Controller">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.pisarevich.tasks.maintask01.controller.Controller" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mainTask01v2" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -447,35 +463,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DoubleVectorTest.ConstructorWithSizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="mainTask01v2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="by.epam.javatraining.pisarevich.tasks.maintask01.model.entity" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.pisarevich.tasks.maintask01.model.entity.DoubleVectorTest" />
-      <option name="METHOD_NAME" value="ConstructorWithSizeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearcherTest.linearSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="mainTask01v2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="by.epam.javatraining.pisarevich.tasks.maintask01.model.logic" />
       <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.pisarevich.tasks.maintask01.model.logic.SearcherTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="linearSearchTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -569,19 +565,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.DoubleVectorLogicTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DoubleVectorTest.ConstructorWithSizeTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DoubleVectorTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculationTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SearcherTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SorterTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DoubleVectorTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculationTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SorterTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SearcherTest.linearSearchTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Controller" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SorterTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SearcherTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculationTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DoubleVectorTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DoubleVectorTest.ConstructorWithSizeTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Controller" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SorterTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SearcherTest.linearSearchTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculationTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DoubleVectorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -608,28 +604,28 @@
     <history-entry file="CalculationTest - 2018.11.19 at 22h 10m 33s.xml">
       <configuration name="CalculationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationTest_findGeometricAverageTest - 2018.11.19 at 03h 47m 21s.xml">
-      <configuration name="CalculationTest.findGeometricAverageTest" configurationId="JUnit" />
+    <history-entry file="CalculationTest - 2018.11.19 at 22h 14m 14s.xml">
+      <configuration name="CalculationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationTest_findGeometricAverageTest - 2018.11.19 at 03h 47m 31s.xml">
-      <configuration name="CalculationTest.findGeometricAverageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationTest_findGeometricAverageTestRootOfNegative - 2018.11.19 at 03h 47m 05s.xml">
-      <configuration name="CalculationTest.findGeometricAverageTestRootOfNegative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearcherTest - 2018.11.19 at 03h 49m 25s.xml">
-      <configuration name="SearcherTest" configurationId="JUnit" />
+    <history-entry file="DoubleVectorTest - 2018.11.19 at 22h 14m 10s.xml">
+      <configuration name="DoubleVectorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SearcherTest - 2018.11.19 at 22h 10m 39s.xml">
       <configuration name="SearcherTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SorterTest - 2018.11.19 at 03h 50m 12s.xml">
-      <configuration name="SorterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest - 2018.11.19 at 03h 50m 30s.xml">
-      <configuration name="SorterTest" configurationId="JUnit" />
+    <history-entry file="SearcherTest_linearSearchTest - 2018.11.19 at 22h 14m 17s.xml">
+      <configuration name="SearcherTest.linearSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SorterTest - 2018.11.19 at 22h 10m 43s.xml">
+      <configuration name="SorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest - 2018.11.19 at 22h 14m 21s.xml">
+      <configuration name="SorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest - 2018.11.19 at 22h 15m 09s.xml">
+      <configuration name="SorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest - 2018.11.19 at 22h 15m 45s.xml">
       <configuration name="SorterTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -712,7 +708,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -785,21 +783,6 @@
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arithmeticexception/GeometricAverageVectorException.java" />
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/NullVectorSizeException.java" />
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/EmptyVectorException.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/ZeroSizeVectorException.java" />
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/logicexceptions/arrayindexoutofboundsexceptions/NegativeVectorSizeException.java" />
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/exceptions/NullVectorException.java" />
@@ -807,16 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1033">
-          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,34 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/util/VectorCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/util/VectorInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/view/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/entity/DoubleVectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -948,9 +897,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/SorterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Calculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="2924">
           <caret line="174" column="41" lean-forward="true" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -958,13 +936,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/pisarevich/tasks/maintask01/model/logic/SorterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/util/VectorInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/util/VectorCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/view/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/pisarevich/tasks/maintask01/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

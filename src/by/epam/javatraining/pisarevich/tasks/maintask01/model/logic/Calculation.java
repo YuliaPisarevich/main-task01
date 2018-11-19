@@ -2,7 +2,6 @@ package by.epam.javatraining.pisarevich.tasks.maintask01.model.logic;
 
 import by.epam.javatraining.pisarevich.tasks.maintask01.model.entity.DoubleVector;
 
-import static by.epam.javatraining.pisarevich.tasks.maintask01.controller.Controller.LOG;
 
 public class Calculation {
     //O(n)

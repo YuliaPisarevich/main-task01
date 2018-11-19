@@ -89,3 +89,14 @@
 2018-11-19 18:23:22,543  INFO root:115 = BinarySearch value was performed and result printed successful
 2018-11-19 18:23:22,543  INFO root:123 = Sort check was performed and result printed successful
 2018-11-19 18:23:22,543  INFO root:130 = SelectionSort was performed and result printed successful
+2018-11-19 22:15:47,761  INFO root:49 = Vector initialization was successful
+2018-11-19 22:15:47,776  INFO root:58 = Min value was found and printed successful
+2018-11-19 22:15:47,776  INFO root:66 = ArithmeticAverage value was found and printed successful
+2018-11-19 22:15:47,776  INFO root:78 = GeometricAverage value was found and printed successful
+2018-11-19 22:15:47,776  INFO root:90 = LocalMin value was found and printed successful
+2018-11-19 22:15:47,776  INFO root:97 = LocalMax value was found and printed successful
+2018-11-19 22:15:47,776  INFO root:104 = Reverse vector was found and printed successful
+2018-11-19 22:15:47,776  INFO root:25 = for doBinarySearch vector was sorted by doQuickSort
+2018-11-19 22:15:47,776  INFO root:112 = BinarySearch value was performed and result printed successful
+2018-11-19 22:15:47,776  INFO root:120 = Sort check was performed and result printed successful
+2018-11-19 22:15:47,776  INFO root:127 = SelectionSort was performed and result printed successful

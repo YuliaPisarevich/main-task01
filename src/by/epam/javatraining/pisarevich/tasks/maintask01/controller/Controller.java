@@ -1,10 +1,8 @@
 package by.epam.javatraining.pisarevich.tasks.maintask01.controller;
 
 import by.epam.javatraining.pisarevich.tasks.maintask01.model.entity.DoubleVector;
-import by.epam.javatraining.pisarevich.tasks.maintask01.model.exceptions.NegativeLengthVectorException;
 import by.epam.javatraining.pisarevich.tasks.maintask01.model.exceptions.VectorException;
 import by.epam.javatraining.pisarevich.tasks.maintask01.model.logic.Calculation;
-import by.epam.javatraining.pisarevich.tasks.maintask01.model.logic.Searcher;
 import by.epam.javatraining.pisarevich.tasks.maintask01.model.logic.Sorter;
 import by.epam.javatraining.pisarevich.tasks.maintask01.util.VectorCreator;
 import by.epam.javatraining.pisarevich.tasks.maintask01.util.VectorInitializer;
