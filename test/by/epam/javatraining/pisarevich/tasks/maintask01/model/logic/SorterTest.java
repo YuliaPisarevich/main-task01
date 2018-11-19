@@ -46,18 +46,18 @@ public class SorterTest {
         assertArrayEquals(result, doSelectionSort(vector).getArray(),0);
     }
     @Test
-    public void doMergeSortTest() {
+    public void doQuickSortTest() {
         double[] a = {30, 6, 31, 55, -5};
         vector.setArray(a);
         double[] result = {-5, 6, 30, 31, 55};
         assertArrayEquals(result, doQuickSort(vector).getArray(),0);
     }
     @Test
-    public void doQuickSortTest() {
+    public void doMergeSortTest() {
         double[] a = {-5, 6, 31, 55, 30};
         vector.setArray(a);
         double[] result = {-5, 6, 30, 31, 55};
-        assertArrayEquals(result, sortMergeNoRecursive(vector).getArray(),0);
+        assertArrayEquals(result, sortMergeSort(vector).getArray(),0);
     }
 
 }

@@ -107,11 +107,11 @@ public class Sorter {
 
 
 
-    public static DoubleVector sortMergeNoRecursive(DoubleVector vector) {
+    public static DoubleVector sortMergeSort(DoubleVector vector) {
         int len = vector.getArray().length;
-        int n = 1; // кратность сравнений (сравнивать по 1-му элем., 2-м ...)
-        int shift; // сдвиг в перебираемом массиве
-        int two_size; // количество элементов для 2-го массива
+        int n = 1;          // кратность сравнений (сравнивать по 1-му элем., 2-м ...)
+        int shift;          // сдвиг в перебираемом массиве
+        int two_size;          // количество элементов для 2-го массива
         double[] arr2;
         while (n < len) {
             shift = 0;
