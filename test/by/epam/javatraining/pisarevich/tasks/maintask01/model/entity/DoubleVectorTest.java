@@ -1,7 +1,5 @@
 package by.epam.javatraining.pisarevich.tasks.maintask01.model.entity;
 
-import by.epam.javatraining.pisarevich.tasks.maintask01.model.exceptions.NegativeLengthVectorException;
-import by.epam.javatraining.pisarevich.tasks.maintask01.model.exceptions.VectorException;
 import org.junit.Test;
 
 import static by.epam.javatraining.pisarevich.tasks.maintask01.model.entity.DoubleVector.DEFAULT_SIZE;
